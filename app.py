@@ -41,7 +41,7 @@ st.title("Coding Challenge #1")
 c1, c2 = st.columns(2)
 with c1:
     st.write("""
-    Welcome to the inaugural ABS Data Engineers coding challenge! We're kicking things off with the Prisoner's Dilemma Game, where your strategic thinking is pitted against your colleagues in a classic scenario of cooperation and betrayal.""")
+    Welcome to the inaugural APS Cadet Coding Challenge! We're kicking things off with the Prisoner's Dilemma Game, where your strategic thinking is pitted against your colleagues in a classic scenario of cooperation and betrayal.""")
     st.markdown("[Prisoner's Dilemma on Wikipedia](https://en.wikipedia.org/wiki/Prisoner's_dilemma)")
 with c2:
     st.image('two_prisoners.webp', width=270)
@@ -83,7 +83,7 @@ The challenge submission will close on Thursday, 11/07 at 11:59 PM AEST. The gam
 
 # Countdown timer
 aest = timezone('Australia/Sydney')
-submission_close_date = aest.localize(datetime.datetime(2024, 7, 11, 23, 59, 59))
+submission_close_date = aest.localize(datetime.datetime(2024, 8, 16, 09, 00, 00))
 current_time = datetime.datetime.now(aest)
 remaining_time = submission_close_date - current_time
 
@@ -125,7 +125,9 @@ for entrant in st.session_state.entrants:
 # Contact
 st.sidebar.divider()
 st.sidebar.header("Contact")
-st.sidebar.write("Jono Sheahan")
+st.sidebar.write("Jacob Paff")
+st.sidebar.header("Credit")
+st.sidebar.write("Jono Sheahan ABS")
 
 # Test function
 def test_submitted_function(func_code):
