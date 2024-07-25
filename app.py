@@ -78,7 +78,7 @@ code = """def my_strategy(history):
 st.code(code, language='python')
 
 st.write("""Your task is to write a Python function that meets the specified requirements. 
-The challenge submission will close on CLOSING_DATE. Good luck!
+The challenge submission will close 0900 16 Aug 2024. Good luck!
 """)
 
 # Countdown timer
