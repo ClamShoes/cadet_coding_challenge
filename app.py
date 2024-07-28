@@ -87,7 +87,7 @@ submission_close_date = aest.localize(datetime.datetime(2024, 8, 16, 9, 0, 0))
 current_time = datetime.datetime.now(aest)
 remaining_time = submission_close_date - current_time
 
-st.sidebar.title("ABS Data Eng")
+st.sidebar.title("APS Cadet")
 st.sidebar.header("Coding Challenge #1")
 if remaining_time.total_seconds() > 0:
     st.sidebar.write(f"Submissions close in {remaining_time.days} days, {remaining_time.seconds // 3600} hours and "
